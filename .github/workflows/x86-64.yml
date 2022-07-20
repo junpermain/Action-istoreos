@@ -16,7 +16,7 @@ on:
   #   types: started
 
 env:
-  CONFIG_FILE: config/x64.config
+  CONFIG_FILE: config/64.config
   SOURCE_URL: https://github.com/immortalwrt/immortalwrt
   SOURCE_BRANCH: openwrt-21.02
   DIY_SH: scripts/custom.sh
