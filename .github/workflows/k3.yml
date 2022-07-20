@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build bcm27xx/bcm2708 openwrt
+name: Build k3 openwrt
 
 on:
   workflow_dispatch:
@@ -16,8 +16,8 @@ on:
   #   types: started
 
 env:
-  CONFIG_FILE: config/bcm27xx/bcm2708.config
-  SOURCE_URL: https://github.com/immortalwrt/immortalwrt
+  CONFIG_FILE: user/k3.config
+  SOURCE_URL:ps://github.com/immortalwrt/ httimmortalwrt
   SOURCE_BRANCH: openwrt-18.06-k5.4
   DIY_SH: scripts/custom.sh
   TOOLCHAIN_TAG: toolchain
