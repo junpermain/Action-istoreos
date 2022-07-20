@@ -17,8 +17,8 @@ on:
 
 env:
   CONFIG_FILE: user/k3.config
-  SOURCE_URL:ps://github.com/immortalwrt/ httimmortalwrt
-  SOURCE_BRANCH: openwrt-18.06-k5.4
+  SOURCE_URL: https://github.com/immortalwrt/immortalwrt
+  SOURCE_BRANCH: openwrt-21.02
   DIY_SH: scripts/custom.sh
   TOOLCHAIN_TAG: toolchain
   CLASH_BINARY_PLATFORM: armv6
