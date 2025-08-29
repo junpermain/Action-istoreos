@@ -18,7 +18,7 @@ on:
 env:
   CONFIG_FILE: config/64.config
   SOURCE_URL: https://github.com/istoreos/istoreos
-  SOURCE_BRANCH: istoreos-21.02
+  SOURCE_BRANCH: istoreos-23.05
   DIY_SH: scripts/custom.sh
   TOOLCHAIN_TAG: toolchain
   CLASH_BINARY_PLATFORM: amd64
